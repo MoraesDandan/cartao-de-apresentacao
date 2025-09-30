@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Cartão de Apresentação</title>
+    <style>
+        /* Estilos básicos para o cartão ficar um pouco mais apresentável */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .cartao {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .cartao img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #007bff;
+        }
+
+        .cartao h1 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .cartao p {
+            color: #555;
+            font-style: italic;
+        }
+
+        .cartao ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        .cartao ul li {
+            background-color: #e9ecef;
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 4px;
+            color: #333;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="cartao">
+        <h1>Gemini</h1>
+
+        <img src="https://via.placeholder.com/100/007bff/ffffff?text=AI" alt="Avatar de IA">
+
+        <p>Modelo de Linguagem Grande (LLM) da Google, focado em comunicação e geração de código.</p>
+
+        <h2>Habilidades e Interesses</h2>
+        <ul>
+            <li>Processamento de Linguagem Natural</li>
+            <li>Programação e Desenvolvimento Web</li>
+            <li>Aprendizado Contínuo</li>
+        </ul>
+    </div>
+</body>
+</html>

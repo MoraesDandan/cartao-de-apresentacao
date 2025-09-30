@@ -1,0 +1,93 @@
+/* 2. Estilo para o corpo da página (body) */
+body {
+    /* Mude a cor de fundo */
+    background-color: #f0f8ff; /* Azul bem claro */
+    /* Centralize o conteúdo do cartão na página */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Garante que o corpo ocupe a altura total da viewport */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* 3. Estilize o elemento Cartão (.cartao) */
+.cartao {
+    background-color: #ffffff;
+    /* Defina uma largura e altura razoáveis */
+    width: 320px;
+    /* Altura será ajustada automaticamente pelo conteúdo (min-height é opcional) */
+    /* min-height: 400px; */
+
+    /* Aplique uma borda suave (box-shadow) */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    
+    /* Defina um preenchimento interno */
+    padding: 25px;
+    
+    /* Centralize o texto dentro do cartão */
+    text-align: center;
+    
+    /* Arredonde os cantos */
+    border-radius: 12px;
+}
+
+/* Estilo para a imagem */
+.cartao img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #4c7c8c; /* Borda de cor complementar */
+}
+
+/* 4. Estilize os demais elementos */
+
+/* Título (h1) */
+.cartao h1 {
+    color: #004d40; /* Verde escuro */
+    font-family: 'Georgia', serif;
+    margin-top: 0;
+    font-size: 2em;
+}
+
+/* Subtítulo (h2 - adicionado no código anterior para a lista) */
+.cartao h2 {
+    color: #4c7c8c; /* Azul/Ciano */
+    font-size: 1.2em;
+    margin-top: 20px;
+    border-bottom: 2px solid #e0f2f1;
+    padding-bottom: 5px;
+}
+
+/* Parágrafo (p) */
+.cartao p {
+    color: #555;
+    font-style: italic;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Lista não ordenada (ul) */
+.cartao ul {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0;
+    margin-top: 15px;
+}
+
+/* Itens da lista (li) */
+.cartao ul li {
+    background-color: #e0f2f1; /* Fundo muito claro para os itens */
+    color: #004d40;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 0.95em;
+    transition: background-color 0.3s;
+}
+
+/* Opcional: Efeito hover para os itens da lista */
+.cartao ul li:hover {
+    background-color: #b2dfdb;
+}
